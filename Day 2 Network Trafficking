@@ -1,2 +1,13 @@
 ![Image](https://github.com/user-attachments/assets/6a978d4f-3c3c-4714-823d-23fa331e08c2)
 ![Image](https://github.com/user-attachments/assets/4d8adfc6-e394-4563-b8f8-332ca71c053b)
+## HTTP Traffic Analysis
+
+Request Type:** GET  
+Host:** neverssl.com  
+Requested Resource:** `/`  
+HTTP Version:** HTTP/1.1  
+User-Agent:** Mozilla/5.0 (Windows NT 10.0; Win64; x64) ...
+
+ Observations:
+- HTTP traffic is unencrypted — all request headers visible.
+- Can be useful for detecting data leakage or malware C2 traffic.
